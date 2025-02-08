@@ -1,0 +1,3 @@
+# JavaScript Type Coercion Bug
+
+This repository demonstrates a common JavaScript bug related to type coercion using the '+' operator.  The `bug.js` file shows the problematic code, while `bugSolution.js` offers a corrected version.  The issue arises because JavaScript's loose typing allows the '+' operator to perform string concatenation when a string is involved, leading to unexpected numerical results.
